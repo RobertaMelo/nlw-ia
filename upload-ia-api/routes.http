@@ -22,7 +22,7 @@ POST http://localhost:3333/videos/13aa399b-1686-4536-ade5-39a922b95fc6/transcrip
 Content-Type: application/json
 
 {
-    "prompt": "New Alok song"
+    "prompt": "New Prompt Teste"
 }
 
 ###
@@ -35,6 +35,6 @@ Content-Type: application/json
 {
     "videoId": "13aa399b-1686-4536-ade5-39a922b95fc6",
     "temperature": 0.5,
-    "template": "Gere um resumo simples da transcrição do vídeo informado a seguir: '''{transcription}'''"
+    "prompt": "Gere um resumo simples da transcrição do vídeo informado a seguir: '''{transcription}'''"
 
 }
